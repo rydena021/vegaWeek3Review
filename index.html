@@ -4,10 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendors/jquery-3.3.1.min.js"></script>
     <script src="scripts/client.js"></script>
     <title>Vega JS/JQ Review</title>
 </head>
 <body>
     <h1>Vega JS/JQ Review</h1>
+    <div id="inputDiv">
+        <h1>Add Item</h1>
+        <input type="text" placeholder="item name" id="itemNameIn">
+        <input type="text" placeholder="item description" id='itemDescriptionIn'>
+        <select id="itemColorIn">
+            <option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Mermaid Treasure</option>
+            <option>Blue</option>
+            <option>Violet</option>
+        </select>
+        <select id="itemSizeIn">
+            <option>Tiny</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Huge</option>
+        </select>
+        <button id="addItemButton">Add Item</button>
+    </div>
+    <div id="outputDiv">
+        <h1>Item Search:</h1>
+        <select id="searchColorIn">
+            <option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+            <option>Green</option>
+            <option>Mermaid Treasure</option>
+            <option>Blue</option>
+            <option>Violet</option>
+        </select>
+        <select id="searchSizeIn">
+            <option>Tiny</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Huge</option>
+        </select>
+        <button id="filterListButton">Filter</button>
+        <ul id="itemList">
+            <li>ITEMS GO HERE</li>
+            <li>ITEMS GO HERE</li>
+            <li>ITEMS GO HERE</li>
+            <li>ITEMS GO HERE</li>
+        </ul>
+    </div>
 </body>
 </html>
