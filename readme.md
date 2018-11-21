@@ -9,7 +9,7 @@ Updated version of our Week 1 Review project. Here, everything has been set up t
 
 This is a completely optional set of challenges that should help solidify the material we've traversed and should be tackled only after the Weekend Challenge has been completed. This exists to keep you sharp and offer more practice. It is not graded, but is recommended with the long break this week. 
 
-- Challenge 1: Install pp and add database functionality to the server side for persistent data
+- Challenge 1: Install pg and add SQL database functionality to the server side for persistent data
 
 - Challenge 2: Add the "filter" functionality that we used in the in-class version
 
